@@ -11,6 +11,29 @@
 </head>
 <body <?php body_class(); ?>>
 <div class="container">
+	<nav class="navbar navbar-default" role="navigation">
+<div class="container-fluid">
+<!-- Logo and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle Navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="#"></a>
+</div> <!-- end navbar-header -->
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+	<li class="active"><a href="#">Link</a></li>
+	<li><a href="#"></a></li>
+	<li><a href="#"></a></li>
+	<li><a href="#"></a></li>
+</ul>
+</div> <!-- end navbar-collapse -->
+</div> <!-- end container-fluid -->
+	</nav>
 <div class="jumbotron">
 <h1>Hello World</h1>
 <h2>Welcome at <?php bloginfo('title'); ?></h2>

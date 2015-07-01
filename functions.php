@@ -29,6 +29,11 @@ if (function_exists('register_sidebar') ) {
 			'after_title' => '</h3>',
 			));
 }
+// Menambahka option "Set Featured Image" di editor
+function oem_after_theme_setup() {
+	add_theme_support('post-thumbnails');
+}
+add_action('after_theme_setup', 'oem_after_theme_setup');
 
 ?>
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+wdsd
 <title><?php bloginfo('title'); ?> | <?php bloginfo('description'); ?></title>
 <meta name="author" content="oemunix"/>
 <meta name="title" content="<?php bloginfo('title'); ?>"/>
